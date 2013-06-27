@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UltimateTreta" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="States/;Sprites/;Animations/;Tokenizer/;Stage/;Engine/;Collision/;Character/;Input/;Sound/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ut" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ut" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions -std=gnu++0x" />
+			<Add directory="libs/lua" />
+		</Compiler>
+		<Linker>
+			<Add library="allegro" />
+			<Add library="allegro_font" />
+			<Add library="allegro_ttf" />
+			<Add library="allegro_memfile" />
+			<Add library="allegro_image" />
+			<Add library="allegro_primitives" />
+			<Add library="allegro_audio" />
+			<Add library="allegro_acodec" />
+			<Add library="lua" />
+			<Add directory="libs/lua" />
+		</Linker>
+		<Unit filename="src/Animations.cpp">
+			<Option virtualFolder="Animations/" />
+		</Unit>
+		<Unit filename="src/Animations.hpp">
+			<Option virtualFolder="Animations/" />
+		</Unit>
+		<Unit filename="src/Audio.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Audio.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Camera.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Camera.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Character.cpp">
+			<Option virtualFolder="Character/" />
+		</Unit>
+		<Unit filename="src/Character.hpp">
+			<Option virtualFolder="Character/" />
+		</Unit>
+		<Unit filename="src/Collision.cpp">
+			<Option virtualFolder="Collision/" />
+		</Unit>
+		<Unit filename="src/Collision.hpp">
+			<Option virtualFolder="Collision/" />
+		</Unit>
+		<Unit filename="src/Console.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Console.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Display.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Display.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/ExpressionCompiler.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/ExpressionCompiler.hpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/ExpressionTokenizer.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/ExpressionTokenizer.hpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/Fight.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Fight.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Game.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Game.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/InputMachine.cpp">
+			<Option virtualFolder="Input/" />
+		</Unit>
+		<Unit filename="src/InputMachine.hpp">
+			<Option virtualFolder="Input/" />
+		</Unit>
+		<Unit filename="src/InputManager.cpp">
+			<Option virtualFolder="Input/" />
+		</Unit>
+		<Unit filename="src/InputManager.hpp">
+			<Option virtualFolder="Input/" />
+		</Unit>
+		<Unit filename="src/Object.cpp">
+			<Option virtualFolder="Character/" />
+		</Unit>
+		<Unit filename="src/Object.hpp">
+			<Option virtualFolder="Character/" />
+		</Unit>
+		<Unit filename="src/Select.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Select.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Sounds.cpp">
+			<Option virtualFolder="Sound/" />
+		</Unit>
+		<Unit filename="src/Sounds.hpp">
+			<Option virtualFolder="Sound/" />
+		</Unit>
+		<Unit filename="src/SpriteEffect.cpp">
+			<Option virtualFolder="Sprites/" />
+		</Unit>
+		<Unit filename="src/SpriteEffect.hpp">
+			<Option virtualFolder="Sprites/" />
+		</Unit>
+		<Unit filename="src/Sprites.cpp">
+			<Option virtualFolder="Sprites/" />
+		</Unit>
+		<Unit filename="src/Sprites.hpp">
+			<Option virtualFolder="Sprites/" />
+		</Unit>
+		<Unit filename="src/Stage.cpp">
+			<Option virtualFolder="Stage/" />
+		</Unit>
+		<Unit filename="src/Stage.hpp">
+			<Option virtualFolder="Stage/" />
+		</Unit>
+		<Unit filename="src/StateCompiler.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/StateCompiler.hpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/StateController.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/StateController.hpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/Title.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Title.hpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="src/Tokenizer.cpp">
+			<Option virtualFolder="Tokenizer/" />
+		</Unit>
+		<Unit filename="src/Tokenizer.hpp">
+			<Option virtualFolder="Tokenizer/" />
+		</Unit>
+		<Unit filename="src/VirtualMachine.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/VirtualMachine.hpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

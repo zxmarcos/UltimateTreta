@@ -1,0 +1,60 @@
+=======================[ NORMAIS ]===================================
+
+  0 - Parado em pé
+  1 - Agaichando
+  2 - Agaichado
+  3 - Levantando de agaichado
+  4 - Andando para frente
+  5 - Andando para trás
+  6 - Virando (em pé)
+  7 - Virando (agaichado)
+  8 - Defesa em pé
+  9 - Defesa agaichado
+ 10 - Pegando impulso
+ 11 - Aterrissando
+ 12 - Pulando
+ 13 - Pulando (voltando)
+ 14 - Pulando (Frente)
+ 15 - Pulando (Frente) (voltando)
+ 16 - Pulando (Trás)
+ 17 - Pulando (Trás) (voltando)
+
+=======================[ ACERTADO ]=================================
+ 20 - Hit fraco em pé
+ 21 - Hit médio em pé
+ 22 - Hit forte em pé
+ 23 - Hit fraco agaichado
+ 24 - Hit médio agaichado
+ 25 - Hit forte agaichado 
+ 26 - Derrubado
+ 27 - Levantando
+ 28 - Acertado no ar
+ 29 - Recuperando no ar
+ 30 - caido chão
+ 31 - levantando
+
+=======================[ GOLPES EM PÉ ]=============================
+100 - Soco fraco
+101 - Soco médio
+102 - Soco forte
+103 - Chute fraco
+104 - Chute médio
+105 - Chute forte
+
+=======================[ GOLPES AGAICHADO ]=========================
+120 - Soco fraco
+121 - Soco médio
+122 - Soco forte
+123 - Chute fraco
+124 - Chute médio
+125 - Chute forte
+
+=======================[ GOLPES AÉREOS ]============================
+140 - Soco fraco
+141 - Soco médio
+142 - Soco forte
+143 - Chute fraco
+144 - Chute médio
+145 - Chute forte
+
+====================[ ATAQUES ESPECIAIS ]===========================
