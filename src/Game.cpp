@@ -143,7 +143,7 @@ void Game::updateSubsystems()
             int fps = Display::getFrameCounter();
             Display::resetFrameCounter();
             stringstream ss;
-            ss << "SFII - FPS: " << fps;
+            ss << "FPS: " << fps;
             al_set_window_title(Display::screen, ss.str().c_str());
         }
         if (event.type == ALLEGRO_EVENT_KEY_UP)
